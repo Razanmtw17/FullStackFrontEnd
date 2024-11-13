@@ -82,10 +82,10 @@ export default function UserLogin({ getUserData }) {
               autoComplete="current-password"
             />
             <span
-              class="flex justify-around items-center"
+              className="flex justify-around items-center"
               onClick={handleToggle}
             >
-              <Icon class="absolute mr-10" icon={icon} size={25} />
+              <Icon className="absolute mr-10" icon={icon} size={25} />
             </span>
           </div>
           <input

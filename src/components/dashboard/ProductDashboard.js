@@ -259,7 +259,7 @@ const handleCreateProduct = async () => {
                   </>
                 ) : (
                   <button
-                    class="btn btn-outline-secondary"
+                    className="btn btn-outline-secondary"
                     onClick={() => handleEditClick(row)}
                     style={{ padding: "3px 10px" }}
                   >
@@ -269,7 +269,7 @@ const handleCreateProduct = async () => {
               </td>
               <td className="trproduct">
                 <button
-                  class="btn btn-outline-danger"
+                  className="btn btn-outline-danger"
                   style={{ padding: "3px 10px" }}
                   onClick={() => handleDeleteClick(row.productId)}
                 >

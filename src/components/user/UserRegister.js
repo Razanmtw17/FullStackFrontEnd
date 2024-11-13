@@ -117,7 +117,7 @@ export default function UserRegister() {
               onChange={(handleDateChange, onChangeHandlerBirthdate)}
               required
             />
-            <label for="email">Email :</label>
+            <label htmlFor="email">Email :</label>
             <input type="text" required onChange={onChangeHandlerEmail} />
             {emailError && <p style={{ color: "red" }}>{emailError}</p>}
             <label for="password">Password:</label>
@@ -134,10 +134,10 @@ export default function UserRegister() {
                 autoComplete="current-password"
               />
               <span
-                class="flex justify-around items-center"
+                className="flex justify-around items-center"
                 onClick={handleToggle}
               >
-                <Icon class="absolute mr-10" icon={icon} size={25} />
+                <Icon className="absolute mr-10" icon={icon} size={25} />
               </span>
             </div>
             <input
