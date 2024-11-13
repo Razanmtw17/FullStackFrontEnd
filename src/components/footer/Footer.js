@@ -5,8 +5,6 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import PinterestIcon from '@mui/icons-material/Pinterest';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import logo from '../../images/white logo.png';
-import { Accordion, AccordionSummary, AccordionDetails } from '@mui/material';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function Footer() {
   const [expanded, setExpanded] = useState(false);

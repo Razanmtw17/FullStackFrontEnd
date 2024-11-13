@@ -7,7 +7,6 @@ import HomePage from "./pages/HomePage";
 import ProductPage from "./pages/ProductPage";
 import ProductDetailsPage from './pages/ProductDetailsPage';
 import CartPage from './pages/CartPage';
-import UserPage from "./pages/UserPage";
 import Box from "@mui/material/Box";
 import UserRegister from './components/user/UserRegister';
 import UserLogin from './components/user/UserLogin';
@@ -16,6 +15,7 @@ import ProtectedRout from "./components/user/ProtectedRout";
 import DashBord from "./components/dashboard/DashBord";
 import CircularProgress from "@mui/material/CircularProgress";
 import NotFoundPage from "./pages/NotFoundPage";
+
 function App() {
   const url = "https://sda-3-online-backend-teamwork-1xdo.onrender.com/";
   const productUrl =
