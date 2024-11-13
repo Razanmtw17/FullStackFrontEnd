@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Footer.css';
+import './footer.css';
 import XIcon from '@mui/icons-material/X';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import PinterestIcon from '@mui/icons-material/Pinterest';
